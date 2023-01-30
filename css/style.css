@@ -29,8 +29,7 @@ body {
 
 .one{
     grid-area: one;
-    width: 80%;
-    padding-left: 10em;
+    width: 100%;
 }
 
 /*caja_principal_somos_civ*/
@@ -229,7 +228,7 @@ header{
 		}		
 
 		header ul li a{
-			color: rgb(255, 20, 145);
+			color: rgb(22, 0, 94);
             font-size: 1em;
             text-decoration: none;
 		}
