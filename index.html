@@ -1,82 +1,87 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> CIV Ingenieria </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="shortcut icon" href="favicon-16x16.png" type="image/x-icon">
     <!--linkeamos el css a mi html-->
     <link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
+  </head>
+</html>
 <body>
-<div class="contenedor-grid">
-    <div class="barra_botonera">  
-        <nav class="navbar">
-            <a href="index.html">
-                <img src="./img/civlogoindex.png" alt="logo civ">
+    <!--inicia nav-->
+    <nav class="navbar navbar-expand-lg bg-blue">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/civlogoindex.png">
             </a>
-        <div class="collapse navbar-collapse" id="opciones">
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="./pages/servicios.html">Servicios</a>
-                </li>
-                <li>
-                    <a href="./pages/nosotros.html">Nosotros</a>
-                </li>
-                <li>
-                    <a href="./pages/proyectos.html">Proyectos</a>
-                </li>
-                <li>
-                    <a href="./pages/novedades.html">Novedades</a>
-                </li>
-                <li>
-                    <a href="./pages/contacto.html">Contacto</a> 
-                </li> 
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/proyectos.html">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/novedades.html">Novedades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+              </li>
             </ul>
+          </div>
         </div>
-        </nav>
-    </div>
+      </nav>
     <!--ends nav-->
         <header class="one" id="header">
             <img src="img/banner4.png" alt="imageninicio" class="logo_banner_inicio">
         </header>
         <!--ends header-->
         <main>
+          <h1>Consultores en ingenieria civil</h1>
             <div class="two">
-                <article> 
-                    <h1>Consultores en ingenieria civil</h1>
                         <div class="caja1">
                             <p class="text-blue"> Somos CIV, una red de profesionales abocados a la industria de la construccion. Con un gran interes por nuevos desfios profesionales, cada proyecto representa  para nosotros una oportunidad de construir un mundo mejor</p>
                         </div>
-                </article>
+            </div>    
+            <!--inicia carousel-->
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/lapr199.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/obrader.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/obraizq.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
-            <div class="three">
-                    <figure>
-                        <img src="../proyecto/img/haras_san_pablo.jpg" height="250px">
-                        <figcaption>lorem 2</figcaption>
-                    </figure> 
-
-                    <figure>
-                        <img src="../proyecto/img/obraizq.jpg" alt="obra izq" height="250px">
-                        <figcaption>lorem 2</figcaption>
-                    </figure>
-                    
-                    <figure>
-                        <img src="../proyecto/img/obrader.jpg" alt="obra_derecha" height="250px">
-                        <figcaption>lorem</figcaption>
-                    </figure>
-                    
-                    <figure>
-                        <img src="../proyecto/img/proyecto_ortuzar.png" alt="parque_ortuzar" height="250px"><figcaption>lorem</figcaption> 
-                    </figure>
-                </div>    
         </main>
         <footer class="four_copyright" id="footer">
             <h3> - All Rights Reserved © 2023 Buenos Aires, AR   </h3> 
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>
