@@ -1,0 +1,19 @@
+//imports
+@import "_vars";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "_fonts";
+@import "_ani";
+@import "_nav";
+@import"_mixins";
+@import "_header";
+@import "_common";
+@import "_contenidogral";
+@import "_breakpoints";
+@import "_buttons";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+
+body {
+    background-image: url(../img/background/background2.png);
+    margin: 0;
+}
