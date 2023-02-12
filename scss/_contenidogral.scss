@@ -1,0 +1,212 @@
+
+#contenedor-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:  repeat(5, 20vh);
+    grid-template-areas: 
+    "one"
+    "two"
+    "three"
+    "four"
+    "five";
+	
+}
+
+.bg-blue {
+    background-color: $colorNav;
+    padding: 8px 20px;
+    position: sticky;
+}
+
+
+.one{
+    grid-area: one;
+    width: 100%;
+}
+
+/*caja_principal_somos_civ*/
+.two{
+    grid-area: two;
+    display: grid;
+    background-image: linear-gradient(
+        0deg,
+        $colorPic,
+        $colorPic
+    )
+    ,url("../img/lap199.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 40px;
+    margin: 20px;
+}
+
+
+/*galeria inicio somos civ*/
+.three {
+    grid-area: three;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+    background-color: $BackgroundColor;
+    padding: 20px; 
+}
+
+
+.four_copyright {
+    grid-area: four;
+    display: grid;
+    width: 100%;
+    text-align: right;
+    color: $colorPale;
+    background-color: $keyColor;
+    padding: 0.5em 0;
+    bottom: 0;
+    margin-top: auto;
+}
+
+.galeria {
+    margin: 20px;
+    /*display flex*/
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ultimos_proyectos {
+        /*display flex*/
+        display: grid;
+        background-color: none;
+        justify-content: space-between;
+        grid-template-columns: auto auto
+}
+
+.caja_contenedora_proyectos{
+    display: grid;
+    align-items: center;
+    background-color: $ColorProyect;
+    justify-content: space-between;
+    grid-template-columns: auto auto;
+    border: 1px $secondaryColor;
+    margin: 1px;
+    border-radius: none
+}
+
+
+.servicios_inicio_escrito {
+    text-shadow: -10px 0px 15px $colorPale;
+    background-image:  linear-gradient(
+        0deg,
+        $colorPic,
+        $colorPic
+    )
+    ,url("../img/proyecto_ortuzar.png");
+    padding: 20px;
+    margin: 30px;
+    border: 1px solid $secondaryColor;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;;
+    text-align: center;
+}
+
+
+.container {
+    padding: 10px;
+    border: solid 1px $secondaryColor;
+    background-color: $secondaryColor;
+}
+
+
+#carouselExampleControls {
+    display: flex;
+    width: 40em;
+    height: 100%;
+}
+
+.anuncio_de_nosotros {
+    border: none;
+}
+
+.texto_nosotros {
+    display: flex;
+    background-image: linear-gradient(
+        0deg,
+        $colorPic,
+        $colorPic
+    )
+    ,url("../img/lap199.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 80px;
+    margin: 30px 30px;
+    color: $colorPale;
+    font-size: $textSm;
+    line-height: 2;
+    margin-right: .6rem;
+    width: 80%;
+}
+
+
+.contact {
+    text-shadow: -10px 3px 10px $colorPale;
+    border: 30em $keyColor;
+    background-image: linear-gradient(
+        0deg,
+        $colorPic,
+        $colorPic
+    )
+    ,url("../img/imgnosotros.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-right: 80px;
+    padding: 8px 8px;
+    border-radius: 20px;
+}
+
+.formulario_contacto {
+    border: 2px $secondaryColor;
+    justify-content: center;
+    padding: 3em;
+    margin-left: 3em;
+}
+
+form {
+    width: 30;
+    margin: auto;
+    label {
+        display: block;
+    }
+    form input {
+        margin-bottom: 20px;
+    }
+}
+
+
+/*letra_caja_index*/
+.text-blue{
+    color: $secondaryColor;
+    float: left;
+    font-size: $textMd;
+    line-height: 2;
+    margin-right: .6rem;
+    }
+
+.card {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    p {
+        display: -webkit-box;
+        font-size: $textSm;
+    }
+}
+
+

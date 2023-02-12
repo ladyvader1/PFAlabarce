@@ -1,0 +1,42 @@
+@media (min-width:320px) {
+    #contenedor-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: (5,20vh);
+    }
+    #logo_banner_inicio {
+        width: 80%;
+    }
+    #carouselExampleControls {
+        flex-direction: row;
+        display: flex;
+    }
+}
+
+
+@media (min-width:1024px) {
+    #contenedor-grid {
+    grid-template-columns:50vw 25vw 25vw;
+    grid-template-rows: 20vh 50vh 30vh;
+    }
+    #one {
+        width: 100%;
+    }
+    header {
+        flex-direction: row;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+
+    .two {
+        background-color: none;
+    }
+}
+
+
+@media (min-width:280px) and (max-width:400px) {
+    .four {
+        background-color: blue;
+    }
+}

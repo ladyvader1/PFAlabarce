@@ -1,0 +1,22 @@
+header{
+	display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    img {
+        width: 100%;
+    }
+    ul {
+        display: flex;
+        justify-content: center;
+        li {
+            list-style: none;
+            margin-right: 10px;
+            a{
+                color: $colorNav;
+                font-size: $textSm;
+                text-decoration: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+//mixin
+@mixin textos($size, $line, $color) {
+    font-size: $size;
+    line-height: $line;
+    color: $color;
+}
+
+p {
+    @include textos(1.2em,1.4em, black );
+    padding: 10px 20px;
+    margin: 3em;
+}

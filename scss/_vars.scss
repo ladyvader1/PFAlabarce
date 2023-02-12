@@ -1,0 +1,30 @@
+//variablescolores
+$mainColor: blue;
+$secondaryColor: rgb(0, 0, 0);
+$keyColor: rgb(2, 2, 81);
+$colorNav: rgba(0, 18, 132, 0.759);
+$colorPale: white;
+$colorPic: rgba(0,0,0,0.5);
+$BackgroundColor: rgba(0, 4, 77, 0);
+$ColorProyect: rgba(185, 172, 172, 0.924);
+$ColorGrey: grey;
+$colorButtonHover: rgb(73, 73, 73);
+
+//sizes
+$textSm: 1em;
+$textMd: 2em;
+$textLg: 3em;
+$textXL: 4em;
+
+p {
+    color:$secondaryColor;
+    text-align: center;
+    font-size: $textMd;
+    font-weight: 130;
+    line-height: 28px;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 100px;
+    margin-right: 80px;
+    font-weight: bold;
+}

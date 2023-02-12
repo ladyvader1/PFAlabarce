@@ -1,0 +1,20 @@
+.bg-blue{
+    ul {
+        li{
+            a {
+                flex-direction: column;
+                color: $colorPale;
+                /*subrayado_animado*/
+                background-image: linear-gradient(currentColor, currentColor);
+                background-position: 0% 100%;
+                background-repeat: no-repeat;
+                background-size: 0% 2px;
+                transition: background-size .3s;
+                &:hover {
+                        color: $secondaryColor;
+                        background-size: 100% 2px
+                       }
+            }
+        }
+    }
+}

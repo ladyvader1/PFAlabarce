@@ -1,0 +1,24 @@
+{
+  "name": "proyectopruebagit---prueba-sass",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+    "sass:watch": "sass --watch scss/main.scss  css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ladyvader1/proyectciv2.git"
+  },
+  "author": "belenweb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ladyvader1/proyectciv2/issues"
+  },
+  "homepage": "https://github.com/ladyvader1/proyectciv2#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "sass": "^1.58.0"
+  }
+}
