@@ -18,3 +18,28 @@
         }
     }
 }
+
+
+.loading span {
+  position:relative;
+  z-index:999;
+  color:#fff;
+}
+.loading:before {
+  content:'';
+  background:#61bdb6;
+  width:128px;
+  height:36px;
+  display:block;
+  position:absolute;
+  top:0;left:0;right:0;bottom:0;
+  margin:auto;
+  
+  animation:2s loadingBefore infinite ease-in-out;
+}
+
+@keyframes loadingBefore {
+  0%   {transform:translateX(-14px);}
+  50%  {transform:translateX(14px);}
+  100% {transform:translateX(-14px);}
+}
