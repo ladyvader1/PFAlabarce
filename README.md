@@ -13,15 +13,15 @@ que son certificados en BIM. Y se podra encontrar un link para presupuestar cual
 
 
 
-###  Links de utilidad 📋
+##  Links de utilidad 📋
 
 Link al [deploy de netlify](https://app.netlify.com/sites/magical-chebakia-c19be2/overview)
 Link a [github]()
 Link al [deploy web github pages]()
 
-Wireframes
+###Wireframes
 
-## Version Web  [ ]
+####Version Web  [ ]
 Link  [Index](https://wireframe.cc/OPyR0O)  
 Link  [Servicios](https://wireframe.cc/OtAMeF) 
 Link [Nosotros](https://wireframe.cc/wTDueo) 
@@ -29,7 +29,7 @@ Link [Proyectos](https://wireframe.cc/astjvx)
 Link [Novedades](https://wireframe.cc/GcuDmF)
 Link [Contacto](https://wireframe.cc/y8lfCQ) 
 
-## Version Mobile
+#### Version Mobile
 Link [Index](https://wireframe.cc/i1h7UP)
 Link [Servicios](https://wireframe.cc/Jq5h8o)
 Link [Nosotros](https://wireframe.cc/hN0fkW) 
