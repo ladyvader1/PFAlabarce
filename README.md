@@ -1,7 +1,7 @@
 # CIV ingenieria
 
 ## Comenzando 🚀
-_ En este proyecto se deja plasmado por medio de las herramientas de HTML - CSS - SASS - Boostrap una web de una consultora de Ingenieria Civil en Buenos Aires, 
+_En este proyecto se deja plasmado por medio de las herramientas de HTML - CSS - SASS - Boostrap una web de una consultora de Ingenieria Civil en Buenos Aires, 
 Argentina. Se encontraran con la pantalla de inicio (index) en el cual se podra acceder a las diferentes secciones de la web:
 Nosotros - Servicios -  Proyectos - Novedades - Contacto. En el index nos encontraremos informacion general
 de este grupo de consultoria de ingenieria civil, junto a una foto del grupo de trabajo.
@@ -9,12 +9,16 @@ En la pagina de Servicios damos las especificaciones tecnicas de que tipo de tra
 Luego en la pagina de Nosotros, se cuenta un la historia y como surgio CIV. En la pagina de Novedades demostramos
 cuales han sido las estructuras realizadas por el grupo CIV a lo largo de su historia para que el cliente pueda ver que tipo de trabajo se realiza, con sus respectivas
 imagenes. Luego en la seccion "Proyectos" se ennumera cual es el listado de servicios ofrecidos con detalle y que ingenieros conforman la empresa, destacando
-que son certificados en BIM. Y se podra encontrar un link para presupuestar cualquier tipo de obra que desee el cliente haciendo click en el boton que figura "click aqui"
-el cual redigira a una pagina de ERROR 404. Finalmente en la pantalla de Contacto, el cliente podra contactar a la empresa llenando un formulario
+que son certificados en BIM. Y se podra encontrar un link para presupuestar cualquier tipo de obra que desee el cliente haciendo click en el boton que figura "click aqui", el cual redigira a una pagina de ERROR 404. Finalmente en la pantalla de Contacto, el cliente podra contactar a la empresa llenando un formulario disponible en dicha seccion_
 
 
 
 ###  Links de utilidad 📋
+
+Link al [deploy de netlify](https://app.netlify.com/sites/magical-chebakia-c19be2/overview)
+Link a [github]()
+Link al [deploy web github pages]()
+
 Wireframes
 
 ## Version Web  [ ]
