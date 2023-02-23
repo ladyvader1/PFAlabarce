@@ -22,6 +22,7 @@
 .one{
     grid-area: one;
     width: 100%;
+    display: flex;
 }
 
 /*caja_principal_somos_civ*/
@@ -221,6 +222,9 @@ form {
     float: left;
     font-size: $textMd;
     margin-right: .6rem;
+    background-image: url(../img/background/background3.jpg);
+    padding: 2em;
+    margin: 1em;
     }
 
 .card {

@@ -10924,6 +10924,7 @@ h1, .h1 {
 .one {
   grid-area: one;
   width: 100%;
+  display: flex;
 }
 
 /*caja_principal_somos_civ*/
@@ -11091,6 +11092,9 @@ form form input {
   float: left;
   font-size: 2em;
   margin-right: 0.6rem;
+  background-image: url(../img/background/background3.jpg);
+  padding: 2em;
+  margin: 1em;
 }
 
 .card {
@@ -11193,8 +11197,17 @@ form form input {
   font-size: 2em;
 }
 
+.regresar_civ {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 2em;
+  padding: 1em;
+  margin: 1em;
+}
+
 body {
-  background-image: url(../img/background/background2.png);
+  background-image: url(../img/background/vecteezy_abstract-white-and-gray-light-gradient-lines-background_6469230.jpg);
   margin: 0;
 }
 
